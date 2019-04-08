@@ -2,6 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 
+//Methodes plusTimer en minTimer lijken sterk op elkaar. Beide functies zouden kunnen gecombineerd worden
+//in 1 functie (DRY-principe).
+//Teller zou niet onder 0 mogen en buttons (plus en min) moeten gedesactiveerd zijn terwijl de teller loopt.
+
 //gewone functie component voor de modalbox, moet met hoofdletter beginnen
 function ModalBox(props) {
     // props show, restart, komen van de state component Timer
